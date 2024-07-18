@@ -98,7 +98,8 @@ const Login = () => {
         </InputGroup>
       </FormControl>
       <Button
-        colorScheme="blue"
+        background="white"
+        color="black"
         width="100%"
         style={{ marginTop: 15 }}
         onClick={submitHandler}
@@ -108,7 +109,8 @@ const Login = () => {
       </Button>
       <Button
         variant="solid"
-        colorScheme="red"
+        background="white"
+        color="black"
         width="100%"
         onClick={() => {
           setEmail("guest@example.com");
